@@ -1,0 +1,53 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-container {
+  background-color: #000000;
+}
+
+.light-container {
+  background-color: #ffffff;
+  border: 1px #000 solid;
+}
+
+.dark-heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.light-heading {
+  color: #000000;
+  font-size: 20px;
+}
+
+.button {
+  height: 35px;
+  width: 80px;
+  margin-top: 15px;
+  font-size: 11px;
+  border-radius: 3px;
+  cursor: pointer;
+}
